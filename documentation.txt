@@ -1,0 +1,34 @@
+Classes and Their Roles
+
+station%: Represents a station in the transportation network. Each station has a name and a line-name.
+
+connection%: Represents a connection between two stations, including the stations (station1 and 
+station2) and the travel time (time) between them.
+
+graph%: Represents the entire network graph. It maintains a list of stations and their connections. Key functionalities include adding stations and connections, populating the graph from a predefined list, finding paths between two stations, and displaying the graph.
+
+
+
+Key Methods
+
+add-or-get-station (in graph%): Adds a new station to the graph or retrieves it if it already exists.
+
+add-connection (in graph%): Adds a connection between two stations.
+
+populate-graph (in graph%): Populates the graph with a list of predefined connections.
+
+find-two-paths (in graph%): Finds up to two paths between two specified stations.
+
+display-graph (in graph%): Prints the graph's stations and their connections to the console.
+
+print-paths: Utility function to print the paths found between two stations.
+
+get-shortest-path: Finds the shortest path among the given paths based on total travel time.
+
+get-path-with-fewest-station-changes: Finds the path with the fewest station changes among the given paths.
+
+GUI Components
+
+Main Window (main-frame): Contains input fields for source and destination stations, a process button to find routes, and output fields for displaying the shortest path and the path with the fewest station changes.
+
+Second Window (second-frame): Contains input fields for adding new stations and connections, and a button to add the specified connection.
