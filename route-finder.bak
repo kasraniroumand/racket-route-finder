@@ -1,13 +1,5 @@
 #lang racket
 
-;;Kassra Niroumand: M00956955
-;;Ahmed Elbehri: M00940460
-;;Arda Janbek Ozturk: M00893929
-;;Mohamed Esokni: M00840012
-
-
-
-
 (require racket/gui)
 
 (define network
