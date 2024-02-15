@@ -8,8 +8,51 @@
 
 
 
-(require racket/gui)
 
+(require racket/gui)
+;; Reads XML from a file and converts it into an x-expression.
+;;;      xml based file reading and parsing
+; (define (read-xml-to-xexpr file-path)
+;   (call-with-input-file file-path
+;     (lambda (input-port)
+;       (xml->xexpr (document-element (read-xml input-port))))))
+
+; ;; Filters out text nodes that are only whitespace.
+; (define (filter-out-whitespace nodes)
+;   (filter (lambda (node)
+;             (or (not (string? node))
+;                 (and (string? node)
+;                      (not (regexp-match? #rx"^\\s*$" node)))))
+;           nodes))
+
+; ;; Processes a 'connection' element, extracting relevant information.
+; (define (process-connection-element elem)
+;   (match elem
+;     [`(connection ()
+;        (station1 () ,station1)
+;        (station2 () ,station2)
+;        (lineName () ,lineName)
+;        (time () ,time))
+;      ;; Return structured data
+;      (list (list 'station1 station1)
+;            (list 'station2 station2)
+;            (list 'lineName lineName)
+;            (list 'time (string->number time)))]
+;     [else (error "Invalid connection element format: ~a" elem)]))
+
+; ;; Extracts connection information from the XML file.
+; (define (extract-connections file-path)
+;   (define xexpr (read-xml-to-xexpr file-path))
+;   (match xexpr
+;     [`(network () ,elems)
+;      ;; Filter out whitespace nodes and process the connection elements.
+;      (map process-connection-element (filter-out-whitespace elems))]
+;     [else (error "Unexpected XML structure: ~a" xexpr)]))
+
+; ;; Load data from "stations.xml" and store it in 'network' variable.
+; (define networks (extract-connections "stations.xml"))
+
+;;;     file reading and parsing
 (define network
   '(
     ("Hendon Central" "Brent Cross" "Northern Line" 2)
