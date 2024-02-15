@@ -1,0 +1,116 @@
+<network>
+  <connection>
+    <station1>Hendon Central</station1>
+    <station2>Brent Cross</station2>
+    <lineName>Northern Line</lineName>
+    <time>2</time>
+  </connection>
+  <connection>
+    <station1>Brent Cross</station1>
+    <station2>Golders Green</station2>
+    <lineName>Northern Line</lineName>
+    <time>3</time>
+  </connection>
+  <connection>
+    <station1>Golders Green</station1>
+    <station2>Hampstead</station2>
+    <lineName>Northern Line</lineName>
+    <time>4</time>
+  </connection>
+  <connection>
+    <station1>Hampstead</station1>
+    <station2>Belsize Park</station2>
+    <lineName>Northern Line</lineName>
+    <time>3</time>
+  </connection>
+  <connection>
+    <station1>Belsize Park</station1>
+    <station2>Chalk Farm</station2>
+    <lineName>Northern Line</lineName>
+    <time>2</time>
+  </connection>
+  <connection>
+    <station1>Chalk Farm</station1>
+    <station2>Camden Town</station2>
+    <lineName>Northern Line</lineName>
+    <time>1</time>
+  </connection>
+  <connection>
+    <station1>Camden Town</station1>
+    <station2>Mornington Crescent</station2>
+    <lineName>Northern Line</lineName>
+    <time>2</time>
+  </connection>
+  <connection>
+    <station1>Mornington Crescent</station1>
+    <station2>Euston</station2>
+    <lineName>Northern Line</lineName>
+    <time>2</time>
+  </connection>
+  <connection>
+    <station1>Euston</station1>
+    <station2>Warren Street</station2>
+    <lineName>Northern Line</lineName>
+    <time>1</time>
+  </connection>
+  <connection>
+    <station1>Warren Street</station1>
+    <station2>Goodge Street</station2>
+    <lineName>Northern Line</lineName>
+    <time>2</time>
+  </connection>
+  <connection>
+    <station1>Goodge Street</station1>
+    <station2>Tottenham Court Road</station2>
+    <lineName>Northern Line</lineName>
+    <time>1</time>
+  </connection>
+  <connection>
+    <station1>Tottenham Court Road</station1>
+    <station2>Leicester Square</station2>
+    <lineName>Northern Line</lineName>
+    <time>1</time>
+  </connection>
+  <connection>
+    <station1>Leicester Square</station1>
+    <station2>Charing Cross</station2>
+    <lineName>Northern Line</lineName>
+    <time>2</time>
+  </connection>
+  <connection>
+    <station1>Charing Cross</station1>
+    <station2>Embankment</station2>
+    <lineName>Northern Line</lineName>
+    <time>1</time>
+  </connection>
+  <connection>
+    <station1>Embankment</station1>
+    <station2>Waterloo</station2>
+    <lineName>Northern Line</lineName>
+    <time>2</time>
+  </connection>
+  <connection>
+    <station1>Waterloo</station1>
+    <station2>Kennington</station2>
+    <lineName>Northern Line</lineName>
+    <time>3</time>
+  </connection>
+  <connection>
+    <station1>Kennington</station1>
+    <station2>Oval</station2>
+    <lineName>Northern Line</lineName>
+    <time>3</time>
+  </connection>
+  <connection>
+    <station1>Oval</station1>
+    <station2>Stockwell</station2>
+    <lineName>Northern Line</lineName>
+    <time>2</time>
+  </connection>
+  <connection>
+    <station1>Euston</station1>
+    <station2>Kings Cross St Pancras</station2>
+    <lineName>Northern Line Bank Branch</lineName>
+    <time>2</time>
+  </connection>
+</network>
