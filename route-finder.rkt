@@ -7,8 +7,7 @@
 
 
 
-
-
+(require xml)
 (require racket/gui)
 ;; Reads XML from a file and converts it into an x-expression.
 ;;;      xml based file reading and parsing
